@@ -1,0 +1,32 @@
+{
+  "name": "jobhunter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "analyze": "tsx src/index.ts",
+    "server": "tsx src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.78.0",
+    "axios": "^1.13.5",
+    "cheerio": "^1.2.0",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "pdf-parse": "^2.4.5"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.3.0",
+    "@types/pdf-parse": "^1.1.5",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
